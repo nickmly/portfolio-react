@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 import pic from '../../assets/images/profilePic.jpg'; 
 import { Image, Icon, Segment, Header } from 'semantic-ui-react';
 

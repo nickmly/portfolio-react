@@ -1,0 +1,15 @@
+header {
+  padding: 25px;
+  color: #fff;
+}
+
+header h1.ui.header {
+  margin: 0;
+  color: #fff;
+  margin-top: 20px;
+}
+header h3.ui.header {
+  margin: 0;
+  color: #fff;
+  margin-bottom: 20px;
+}

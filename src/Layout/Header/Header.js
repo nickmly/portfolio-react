@@ -15,6 +15,9 @@ const header = () => {
           Developer
         </Header>
         <Icon fitted size="big" name="github"/>
+        <Icon fitted size="big" name="linkedin"/>
+        <Icon fitted size="big" name="at"/>
+        <Icon fitted size="big" name="file"/>
       </header>
     </Segment>     
   );

@@ -21,13 +21,9 @@ const about = () => {
       </p>
       <h4 className={classes.EducationHeader}>Education</h4>
       <Container>
-        <Row>
-          <Col>
-            <Image className={classes.Education} src={humberPic}/>
-          </Col>
-          <Col xs={7}>
+        <Row>        
+            <Image className={classes.Education} src={humberPic}/>   
             <p> I graduated with honors from Game Programming at Humber College in April 2017.</p>
-          </Col>
         </Row>
   
       </Container>

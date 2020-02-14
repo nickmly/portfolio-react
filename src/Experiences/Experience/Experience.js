@@ -11,6 +11,20 @@ const timelineItemStyle = {
 };
 
 const experience = (props) => {
+  let title = props.title;
+  let footer = null;
+  if(props.link) {
+    title = (
+      <a href={props.link}>{props.title}</a>
+    );
+  }
+
+  if(props.footer && props.footerLink) {
+    footer = (
+      <a href={props.footerLink}>View {props.footer}</a>
+    );
+  }
+
   return (
     <TimelineItem 
       key={props.key} 
@@ -19,8 +33,9 @@ const experience = (props) => {
       style={{ color: '#007bff' }}
     >
       <Image src={props.image} fluid rounded/>
-      <h3>{props.title}</h3>
+      <h3>{title}</h3>
       <p>{props.body}</p>
+      <p>{footer}</p>
     </TimelineItem>
   );
 }

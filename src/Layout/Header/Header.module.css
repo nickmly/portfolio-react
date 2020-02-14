@@ -7,3 +7,17 @@
   background: #333;
   color: #fff;
 }
+
+.Icon {
+  width: 2em;
+  height: 2em;
+  margin: 0 0.5em;
+}
+
+.Link {
+  color: #fff;
+}
+
+.Link:hover {
+  color: #007bff;
+}

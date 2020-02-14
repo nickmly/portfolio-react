@@ -1,3 +1,11 @@
 .Container {
   margin-top: 1em;
 }
+
+.Education {
+  width: 50%;
+}
+
+h4 {
+  color: #007bff;
+}

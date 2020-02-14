@@ -1,9 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import classes from './About.module.css';
+import { Container } from 'react-bootstrap';
 
 const about = () => {
   return (
-    <Fragment>
-      <strong>TODO: replace this</strong>
+    <Container className={classes.Container}>
       <p>
         I have been programming since I was in middle school and I couldn’t imagine doing anything else. I'm interested in building cloud applications with excellent user interfaces and user experiences.
       </p>
@@ -16,7 +17,7 @@ const about = () => {
       <p>
         My biggest strength as a programmer is debugging. Making games has taught me how to properly breakpoint my code and run through it step by step to find the most obscure bugs and fix them quickly. Web development taught me how to create great UX and work with clients to fufill their needs for a project.
       </p>
-    </Fragment>
+    </Container>
   );
 }
 

@@ -3,7 +3,7 @@ import Header from './Header/Header';
 import Main from './Main/Main';
 import Footer from './Footer/Footer';
 
-import { Container } from 'semantic-ui-react';
+import Container  from 'react-bootstrap/Container'
 import './Layout.css';
 
 const layout = () => {
@@ -12,7 +12,6 @@ const layout = () => {
       <Header/>
       <Container>     
         <Main/>
-        <Footer/>
       </Container>
     </Fragment>
     

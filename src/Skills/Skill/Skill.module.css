@@ -1,5 +1,6 @@
-.ui.avatar.image {
+.Image {
   width: 3em;
   height: 3em;
+  margin: 0 0.5em;
   border-radius: 0;
 }

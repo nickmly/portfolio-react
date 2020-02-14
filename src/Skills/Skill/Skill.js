@@ -1,11 +1,11 @@
 import React from 'react';
-import { Image } from 'semantic-ui-react';
-import './Skill.css';
+import { Image } from 'react-bootstrap';
+import classes from './Skill.module.css';
 
 const skill = (props) => {
   return (
     <div>            
-      <Image src={props.icon} avatar/>
+      <Image className={classes.Image} src={props.icon}/>
       <span>{props.name}</span>
    </div>
   );

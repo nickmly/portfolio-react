@@ -3,14 +3,16 @@ import Header from './Header/Header';
 import Main from './Main/Main';
 import Footer from './Footer/Footer';
 
-import Container  from 'react-bootstrap/Container'
+import Container  from 'react-bootstrap/Container';
+
+
 import './Layout.css';
 
 const layout = () => {
   return (
     <Fragment>
       <Header/>
-      <Container>     
+      <Container>
         <Main/>
       </Container>
     </Fragment>

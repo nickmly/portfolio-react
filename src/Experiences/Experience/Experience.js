@@ -2,6 +2,8 @@ import React from 'react';
 import { TimelineItem }  from 'vertical-timeline-component-for-react';
 import { Image } from 'react-bootstrap';
 
+import './Experience.css';
+
 const timelineItemStyle = {
   display: 'block',
   float: 'left',

@@ -20,8 +20,8 @@ const about = () => {
         My biggest strength as a developer is debugging. Making games has taught me how to properly breakpoint my code and run through it step by step to find the most obscure bugs and fix them quickly. Web development taught me how to create great UX and work with stakeholders to fufill their needs for a project.
       </p>
       <h4 className={classes.EducationHeader}>Education</h4>
-      <Container>
-        <Row>        
+      <Container fluid>
+        <Row className={classes.Row}>        
             <Image className={classes.Education} src={humberPic}/>   
             <p> I graduated with honors from Game Programming at Humber College in April 2017.</p>
         </Row>

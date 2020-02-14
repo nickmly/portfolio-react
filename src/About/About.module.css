@@ -3,9 +3,17 @@
 }
 
 .Education {
-  width: 50%;
+  height: auto;
+  max-width: 100%;  
+  max-height: 295px;
+  min-width: auto;
+  min-height: auto;
 }
 
 .EducationHeader {
   color: #007bff;
+}
+
+.Row {
+  width: 100%;
 }

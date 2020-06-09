@@ -16,10 +16,12 @@ import htmlIcon from '../assets/icons/html.png';
 import cssIcon from '../assets/icons/css.png';
 import angularIcon from '../assets/icons/angular.png';
 import reactIcon from '../assets/icons/react.png';
+import vueIcon from '../assets/icons/vue.png';
 
 import cloudIcon from '../assets/icons/cloud.png';
 import sqlIcon from '../assets/icons/sql.png';
 import gitIcon from '../assets/icons/git.png';
+
 
 
 const skills = () => {
@@ -35,8 +37,10 @@ const skills = () => {
        <hr/>
        <Skill icon={htmlIcon} name="HTML"/>
        <Skill icon={cssIcon} name="CSS"/>
+			 <Skill icon={reactIcon} name="React"/>
+			 <Skill icon={vueIcon} name="VueJS"/>
        <Skill icon={angularIcon} name="Angular"/>
-       <Skill icon={reactIcon} name="React"/>
+
        <hr/>
        <Skill icon={sqlIcon} name="MySQL, SQL Server"/>
        <Skill icon={cloudIcon} name="Microsoft Azure, OpenShift"/>

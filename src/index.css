@@ -12,3 +12,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Bootstrap overrides */
+.nav-item.nav-link {
+	color: rgb(2, 106, 218);
+}

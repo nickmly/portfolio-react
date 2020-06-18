@@ -2,7 +2,6 @@ import React from 'react';
 import About from '../../About/About';
 import Experiences from '../../Experiences/Experiences';
 import Skills from '../../Skills/Skills';
-import pic from '../../assets/images/profilePic.jpg';
 
 import { Container } from 'react-bootstrap';
 import Tabs from 'react-bootstrap/Tabs';

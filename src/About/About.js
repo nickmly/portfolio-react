@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './About.module.css';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
-import humberPic from '../assets/images/humber.png';
+import humberPic from '../assets/images/humber.webp';
 
 const about = () => {
 	return (

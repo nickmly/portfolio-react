@@ -1,6 +1,6 @@
 import React from 'react';
 import { TimelineItem }  from 'vertical-timeline-component-for-react';
-import { Image } from 'react-bootstrap';
+import Image  from '../../components/Image';
 
 import './Experience.css';
 
@@ -34,7 +34,7 @@ const experience = (props) => {
       dateInnerStyle={{ background: '#007bff' }}
       style={{ color: '#007bff' }}
     >
-      <Image src={props.image} fluid rounded/>
+      <Image src={props.image} fallback={props.fallback} fluid rounded/>
       <h3>{title}</h3>
       <p>{props.body}</p>
       <p>{footer}</p>

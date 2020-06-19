@@ -1,12 +1,14 @@
 import React, { Fragment } from 'react';
 import classes from './Header.module.css';
 import pic from '../../assets/images/profilePic.webp';
+import picFallback from '../../assets/images/profilePic.jpg';
 
 import { FaGithub, FaLinkedin, FaFileAlt } from 'react-icons/fa';
 
 import { MdEmail } from 'react-icons/md';
 
-import { Image, Jumbotron, Container, Row } from 'react-bootstrap';
+import { Jumbotron, Container, Row } from 'react-bootstrap';
+import Image from '../../components/Image';
 
 const header = () => {
 	return (
@@ -14,7 +16,13 @@ const header = () => {
 			<Jumbotron fluid className={classes.Header}>
 				<div className={classes.HeaderOverlay}></div>
 				<Container className={classes.HeaderContent}>
-					<Image className={classes.Avatar} src={pic} roundedCircle alt="Profile picture" />
+					<Image 
+						className={classes.Avatar} 
+						src={pic}
+						fallback={picFallback} 
+						roundedCircle 
+						alt="Profile picture" 
+					/>
 					<h1>Nick Mallory</h1>
 					<h4>
 						Developer

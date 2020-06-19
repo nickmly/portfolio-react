@@ -1,8 +1,10 @@
 import React from 'react';
 import classes from './About.module.css';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
+import Image from '../components/Image';
 
 import humberPic from '../assets/images/humber.webp';
+import humberFallbackPic from '../assets/images/humber.jpg';
 
 const about = () => {
 	return (
@@ -19,7 +21,12 @@ const about = () => {
 			<h4 className={classes.EducationHeader}>Education</h4>
 			<Container fluid>
 				<Row className={classes.Row}>
-					<Image className={classes.Education} src={humberPic} alt="Humber College logo" />
+					<Image 
+						className={classes.Education} 
+						src={humberPic} 
+						fallback={humberFallbackPic}
+						alt="Humber College logo"
+					/>
 					<p> I graduated with honors from Game Programming at Humber College in April 2017.</p>
 				</Row>
 

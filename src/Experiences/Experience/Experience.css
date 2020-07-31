@@ -1,12 +1,15 @@
+.footer-link {
+	margin-right: 15px;
+}
 
 @media (max-width: 350px) {
-  .timeline-item-dateinner {
-    font-size: 0.5em;
-  }
+	.timeline-item-dateinner {
+		font-size: 0.5em;
+	}
 }
 
 @media (min-width: 351px) and (max-width: 500px) {
-  .timeline-item-dateinner {
-    font-size: 0.7em;
-  }
+	.timeline-item-dateinner {
+		font-size: 0.7em;
+	}
 }

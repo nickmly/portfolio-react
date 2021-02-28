@@ -106,7 +106,7 @@ const experiences = () => {
 					footer="Trailer"
 					footerLink="https://www.youtube.com/watch?v=3rYr_Drt5Go"
 				/>
-				<Experience
+				{/* <Experience
 					key="7"
 					date="2017"
 					title="Social Media Website"
@@ -127,7 +127,7 @@ const experiences = () => {
 					link="https://react-todo-app457.herokuapp.com/"
 					footer="GitHub"
 					footerLink="https://github.com/nickmly/react-todo-app"
-				/>
+				/> */}
 				<Experience
 					key="9"
 					date="2017"

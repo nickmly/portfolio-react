@@ -17,6 +17,7 @@ import arPic from '../assets/images/ar_1.webp';
 import rentPic from '../assets/images/rent_assistance.webp';
 import appPic from '../assets/images/covid_alert.webp';
 import canadaAppPic from '../assets/images/covid_alert_canada.webp';
+import fitnessAppPic from '../assets/images/fitness_1.webp';
 
 import odsFallbackPic from '../assets/images/ods.jpg';
 import opsFallbackPic from '../assets/images/ontario.jpg';
@@ -30,6 +31,7 @@ import arFallbackPic from '../assets/images/ar_1.jpg';
 import rentFallbackPic from '../assets/images/rent_assistance.jpg';
 import appFallbackPic from '../assets/images/covid_alert.jpg';
 import canadaAppFallbackPic from '../assets/images/covid_alert_canada.jpg';
+import fitnessAppFallbackPic from '../assets/images/fitness_1.jpg';
 
 
 const experiences = () => {
@@ -86,8 +88,18 @@ const experiences = () => {
 				/>
 				<Experience
 					key="5"
+					date="2021"
+					title="Fitness Log App"
+					body="I created a workout logging app to log workouts using a Vue.js front-end and a Node.js + Express back-end. You can login using Firebase auth and the application uses a MySQL database to save all exercises and logs."
+					image={fitnessAppPic}
+					fallback={fitnessAppFallbackPic}
+					link="https://fitness-app-nickmly.vercel.app"
+					footers={[{ text: "GitHub for front-end", link: "https://github.com/nickmly/fitness-app" }, { text: "GitHub for back-end", link: "https://github.com/nickmly/fitness-server" }]}
+				/>
+				<Experience
+					key="6"
 					date="2019"
-					title="ASP.NET Core + Angular Reddit Clone Site "
+					title="ASP.NET Core + Angular Reddit Clone Site"
 					body="I created an ASP.NET Core with an Angular frontend app that pulls from a reddit API to showcase the top posts right now."
 					image={aspPic}
 					fallback={aspFallbackPic}
@@ -96,7 +108,7 @@ const experiences = () => {
 					footerLink="https://github.com/nickmly/social-core-angular"
 				/>
 				<Experience
-					key="6"
+					key="7"
 					date="2018"
 					title="Recession"
 					body="Recession is a game project I finished in May 2018. I employed the help of two 3D modelers and a sound designer. It is currently on Steam Early Access for PC and Mac. All of the code, as well as the overall design of the game was done by myself. Recession is a 4v1 cop vs. robbers multiplayer shooter. Four robbers attempt to rob a bank full of money bags while a single cop with heavy armor and weapons tries to take all 4 down before they can escape with the cash."
@@ -129,7 +141,7 @@ const experiences = () => {
 					footerLink="https://github.com/nickmly/react-todo-app"
 				/> */}
 				<Experience
-					key="9"
+					key="8"
 					date="2017"
 					title="Animal Revolution"
 					body="A real-time strategy game mixed with a third-person shooter. This game was made in Unreal Engine 4 as a final school project in 2 months. It is coded in C++, using blueprints for animations only."
@@ -139,7 +151,7 @@ const experiences = () => {
 					footerLink="https://youtu.be/NQQav4pJo2Y"
 				/>
 				<Experience
-					key="10"
+					key="9"
 					date="2017"
 					title="Fake Startup Website"
 					body="I created a fake startup site using Flexbox."
@@ -150,7 +162,7 @@ const experiences = () => {
 					footerLink="https://github.com/nickmly/flexbox-travel-site/"
 				/>
 				<Experience
-					key="11"
+					key="10"
 					date="2017"
 					title="Worms Clone Game"
 					body="In a group of four people, we created a Worms Clone for TOJam 2017 in Unity. It has 3 playable characters and multiple abilites per character."

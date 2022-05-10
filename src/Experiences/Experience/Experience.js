@@ -38,7 +38,7 @@ const experience = (props) => {
 
 	return (
 		<TimelineItem
-			key={props.key}
+			key={props.myKey}
 			dateText={props.date}
 			dateInnerStyle={{ background: '#007bff' }}
 			style={{ color: '#007bff' }}

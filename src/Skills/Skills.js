@@ -24,7 +24,8 @@ import cloudIcon from '../assets/icons/cloud.png';
 import sqlIcon from '../assets/icons/sql.png';
 import gitIcon from '../assets/icons/git.png';
 
-
+import jestIcon from '../assets/icons/jest.png';
+import cypressIcon from '../assets/icons/cypress.png';
 
 const skills = () => {
   return (
@@ -49,6 +50,10 @@ const skills = () => {
        <Skill icon={sqlIcon} name="MySQL, PostgreSQL"/>
        <Skill icon={cloudIcon} name="Microsoft Azure, AWS"/>
        <Skill icon={gitIcon} name="GitHub, GitLab"/>
+
+       <hr/>
+       <Skill icon={jestIcon} name="Jest"/>
+       <Skill icon={cypressIcon} name="Cypress"/>
     </Container>
   );
 }
